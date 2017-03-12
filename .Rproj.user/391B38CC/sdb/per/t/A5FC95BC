@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "library(shiny)\nlibrary(DT)\nlibrary(shinydashboard)\nlibrary(leaflet)\nlibrary(plotly)\nlibrary(dplyr)\nlibrary(ggplot2)\n\ndashboardPage(\n  dashboardHeader(title=\"Malaria in Colombia\"),\n  dashboardSidebar(\n    sliderInput(\"Year\", \"Year:\", 2007, 2016,c(2012,2016)),\n                   radioButtons(\"x_var\", \"\",\n                                choices=list(\"Colombia\"= \"Total\",\n                                             \"Departments\"=\"Nombre.Dpto\")), htmlOutput(\"filmuni\") ),\n  dashboardBody(\n    tabsetPanel(\n      tabPanel(\"Documentation\", includeMarkdown(\"./PA3.md\")),\n      tabPanel(\"APP\",\n    box(plotlyOutput(\"distPlot\"),title = \"Cases Plot\",width = 11),\n    box(dataTableOutput(\"table\"),title = \"Table of values\",width=6),\n    box(leafletOutput(\"map\"),title = \"Map of Malaria Cases by Department\",width=6)\n      )\n    )\n    )\n                \n)",
+    "created" : 1489300839053.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "942737771",
+    "id" : "A5FC95BC",
+    "lastKnownWriteTime" : 1489301273,
+    "last_content_update" : 1489301273576,
+    "path" : "C:/Users/SAMSUNG/Desktop/Trabajo Final/ui.R",
+    "project_path" : "ui.R",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,10 @@
+name: test
+title: Test
+account: hrcamilo
+server: shinyapps.io
+appId: 163053
+bundleId: 743293
+url: https://hrcamilo.shinyapps.io/test/
+when: 1489302707.339
+asMultiple: FALSE
+asStatic: FALSE

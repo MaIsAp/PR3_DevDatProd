@@ -1,0 +1,10 @@
+name: malaria_cases_in_colombia
+title: malaria_cases_in_colombia
+account: hikaru
+server: shinyapps.io
+appId: 163039
+bundleId: 743296
+url: https://hikaru.shinyapps.io/malaria_cases_in_colombia/
+when: 1489303033.33969
+asMultiple: FALSE
+asStatic: FALSE
